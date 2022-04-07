@@ -31,6 +31,7 @@ header {
     display: flex;
     align-items: center;
     width: 30%;
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 .title h1 {
