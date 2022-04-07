@@ -21,14 +21,14 @@ header {
     justify-content: space-between;
     background-color: #ffffff;
     width: 100%;
-    height: 70px;
+    height: 4em;
+    padding-left: 5%;
+    padding-right: 5%;
     box-shadow: #00000056;
 }
 
 .title {
     display: flex;
-    justify-content: flex-start;
-    padding-left: 30px;
     align-items: center;
     width: 30%;
 }
@@ -39,9 +39,8 @@ header {
 
 .links {
     display: flex;
+    gap: 10%;
     justify-content: flex-end;
-    gap: 60px;
-    padding-right: 30px;
     align-items: center;
     width: 70%;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,7 +84,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 4em;
     width: 100%;
 }
 
@@ -102,10 +101,10 @@ footer p {
     justify-content: center;
     box-sizing: border-box;
     gap: 10%;
-    margin-top: 30px;
+    margin-top: 3%;
     margin-right: 5%;
     margin-left: 5%;
-    height: 500px;
+    height: 80vh;
     width: 90%;
 }
 
@@ -132,7 +131,7 @@ footer p {
     content: "♥";
     display: block;
     color: #ED6A5A;
-    font-size: 50px;
+    font-size: 300%;
     padding-bottom: 0px;
 }
 
@@ -168,8 +167,52 @@ footer p {
 
 .card {
     display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
     background-color: #ffffff;
     box-shadow: 5px 10px 10px #00000032;
-    width: 25%; 
+    width: 35%; 
     height: 400px;
+}
+
+/* CARD STYLE */
+
+.card-title {
+    font-size: 1.75em;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.card-personality {
+    display: block;
+}
+
+.card-personality p {
+    display: inline-block;
+    background-color:#F9E7E7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.match-button {
+    background: linear-gradient(90deg, #FD297B 0.03%, #FF5864 39.91%, #FF655B 72.7%);
+    width: 40%;
+    height: 10%;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 120%;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+}
+
+.card .description {
+    width: 90%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif
 }
